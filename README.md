@@ -154,7 +154,7 @@ You **may not**:
 @bachelorsthesis{dewanjee2026alankars,
   title     = {Decoding Alankars in Hindi Poetry: A Multi-Label Classification
                Approach using Hybrid Models},
-  author    = {Dewanjee, Sagar and Mithra, Madapa and Prakash, Gedela Bala Sai},
+  author    = {Sagar Dewanjee, Madapa Mithra, Gedela Bala Sai Prakash},
   school    = {Assam University, Silchar},
   year      = {2026},
   month     = {May},
