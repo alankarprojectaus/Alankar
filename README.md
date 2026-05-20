@@ -19,7 +19,7 @@ Department of Computer Science and Engineering, Assam University, Silchar
 
 This repository contains the complete pipeline for **automated Alankar detection in Hindi poetry** using a **Multi-Label Classification** approach. It includes the raw metadata corpus, the annotated HiPoAD dataset across three configurations, and all model training notebooks spanning five architectures.
 
-It supports **Hindi Devanagari text input**, **multi-label prediction** of seven Alankar types, and a **sliding-window corpus generation** strategy that scales a 1,825-poem corpus to ~589,779 labelled samples.
+It supports **Hindi Devanagari text input**, **multi-label prediction** of seven Alankar types, and a **sliding-window corpus generation** strategy that scales a 1,825-poem corpus to ~589,779 labelled samples. The full annotated dataset (HiPoAD_annotaed) is uploaded in .csv format as their is size limit in github.
 
 ---
 
@@ -82,13 +82,13 @@ It supports **Hindi Devanagari text input**, **multi-label prediction** of seven
 
 | # | Alankar | Script | Type | Description |
 |---|---|---|---|---|
-| 1 | Anupras | अनुप्रास | Shabd | Alliteration — repetition of consonant sounds for melodic effect |
-| 2 | Yamak | यमक | Shabd | Same word used multiple times with different meanings |
-| 3 | Shlesh | श्लेष | Shabd | Single word carrying multiple simultaneous meanings (pun) |
+| 1 | Anupras | अनुप्रास | Shabdh | Alliteration — repetition of consonant sounds for melodic effect |
+| 2 | Yamak | यमक | Shabdh | Same word used multiple times with different meanings |
+| 3 | Shlesh | श्लेष | Shabdh | Single word carrying multiple simultaneous meanings (pun) |
 | 4 | Upma | उपमा | Arth | Simile — explicit comparison using markers like *सा*, *जैसा* |
 | 5 | Roopak | रूपक | Arth | Metaphor — direct identity without comparison words |
 | 6 | Utpreksha | उत्प्रेक्षा | Arth | Imaginative comparison / poetic hypothesis (*मानो*, *जनु*) |
-| 7 | Virodhbhas | विरोधाभास | Arth | Apparent contradiction that reveals a deeper truth |
+| 7 | Virodhabhas | विरोधाभास | Arth | Apparent contradiction that reveals a deeper truth |
 
 ---
 
@@ -151,10 +151,10 @@ You **may not**:
 ## 📖 Citation
 
 ```bibtex
-@bachelorsthesis{dewanjee2026alankars,
+@bachelorsthesis{dhar2026alankars,
   title     = {Decoding Alankars in Hindi Poetry: A Multi-Label Classification
                Approach using Hybrid Models},
-  author    = {Sagar Dewanjee, Madapa Mithra, Gedela Bala Sai Prakash},
+  author    = {Dr.Sourish Dhar, Vishal Gour, Sagar Dewanjee, Madapa Mithra, Gedela Bala Sai Prakash},
   school    = {Assam University, Silchar},
   year      = {2026},
   month     = {May},
