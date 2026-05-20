@@ -19,7 +19,7 @@ Department of Computer Science and Engineering, Assam University, Silchar
 
 This repository contains the complete pipeline for **automated Alankar detection in Hindi poetry** using a **Multi-Label Classification** approach. It includes the raw metadata corpus, the annotated HiPoAD dataset across three configurations, and all model training notebooks spanning five architectures.
 
-It supports **Hindi Devanagari text input**, **multi-label prediction** of seven Alankar types, and a **sliding-window corpus generation** strategy that scales a 1,825-poem corpus to ~589,779 labelled samples. The full annotated dataset (HiPoAD_annotaed) is uploaded in .csv format as their is size limit in github.
+It supports **Hindi Devanagari text input**, **multi-label prediction** of seven Alankar types, and a **sliding-window corpus generation** strategy that scales a 1,825-poem corpus to ~589,779 labelled samples. The full annotated dataset (HiPoAD_annotated) is uploaded in .csv format as their is size limit in github.
 
 ---
 
