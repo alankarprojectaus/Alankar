@@ -29,7 +29,7 @@ It supports **Hindi Devanagari text input**, **multi-label prediction** of seven
 -  1,825 Hindi poems collected from Hindwi.org, published collections & textbooks
 -  Manually annotated across 7 Alankar categories by human experts
 -  Sliding-window line-group strategy expands corpus to ~589,779 labelled samples
--  Three dataset configurations: D20 (20k n-gram), D33 (33k single-line), D589 (full 589k n-gram)
+-  Three dataset configurations: D20 (20k n-gram), D33 (33k single-line), D589 (full 589k n-gram) [D589 datset is in .csv.gz format as their is size limit in github.]
 
 ### Models
 -  Classical baselines: Naïve Bayes (NB-AlankarNet) and Decision Tree (DT-AlankarNet) with One-vs-Rest TF-IDF
